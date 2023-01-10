@@ -44,7 +44,7 @@ img {
   float: inline-start; 
   margin: 10px;
   border: 1px solid black;
-  resize : 50px
+  resize : both /* test */
 }
 
 h1 {

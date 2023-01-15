@@ -1,0 +1,44 @@
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: rgb(49, 49, 75);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.sec1,
+.sec2,
+.sec3 {
+  background-color: lightgrey;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+h3,
+a {
+  padding: 10px;
+}
+
+p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+img {
+  width: 95%;
+  padding: 10px;
+}
+/* Class Selectors */

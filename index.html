@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>McLloyd Pise - WDD 230 - Web Frontend Development</title>
-    <meta discription="WDD 230 - Web Frontend Development, McLloyd Pise">
-    <meta author>
+    <meta name="description" content="230 - Web Frontend Development,course assignment portal by McLloyd Pise">
+    <meta name="author" content="McLloyd Pise">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="images/img-mclloyd-pise.webp" alt="Profile Picture">
         <span>
             <h1>McLloyd Pise</h1>
         </span>
@@ -23,10 +24,29 @@
         </ul>
     </nav>
     <main>
-<h1>Page Title</h1>
-<p>Start</p>
+<h1>WDD 230: Web Frontend Development</h1>
+
+<section class="card">
+    <span>Learning Activities</span>
+    <ul>
+        <li class="active"><a href="#">Week 01: Layout</a></li>
+        <li><a href="#">Week 01: Media Query</a></li>
+        <li><a href="#">Week 01: JS Pen</a></li>
+        <!-- More weeks will be added here -->
+    </ul>
+</section>
+<section class="card">
+    <span>Information</span>
+    <p>Location: Toloria, Madagascar</p>
+    <p>Weather: 76°F - Sunshine</p>
+    <p>Page Visits: 15</p>
+</section>
 
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> McLloyd Pise.Cape Town.</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 </html>

@@ -22,12 +22,18 @@ header div {
     padding: 16px 10px 16px 0px;
 }
 
-header div img {
-    border-radius: 10px;
+/*header div img {
+    /*border-radius: 10px;
     box-shadow: 10px 10px 10px;
-    width: 133px;
+    /*width: 133px;
     height: 133px;
+}*/
+
+header img {
+    border-radius: 50%;
+    margin-right: 20px;
 }
+
 
 header span {
     color: white;
@@ -101,12 +107,12 @@ main .card p {
 
 .card:nth-of-type(2)>h2 {
     margin-bottom: 14px;
-    /* Espacio entre el h2 y los párrafos */
+    
 }
 
 .card:nth-of-type(2)>p {
     margin: 10px 0;
-    /* Espacio entre cada párrafo */
+    
 }
 
 .card a {
@@ -115,6 +121,10 @@ main .card p {
 
 .card a:hover {
     color: rgba(247, 117, 60, 1);
+}
+
+.hero {
+    image-resolution: 400px;
 }
 
 main h2 {

@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+    text-align: center;
+    padding: 20px;
+}
+
+  body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto 1fr auto;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+}
+  
+  section.card {
+    box-shadow: 1px 1px 10px black;
+    border-radius: 6px;
+    margin: 2%;
+    padding: 1em;
+  }

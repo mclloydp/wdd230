@@ -9,6 +9,10 @@
         margin-top: 5px;
         flex-direction: column;
     }
+    .hero {
+        image-resolution: 960px;
+    }
+
     main h1 {
         text-align: center;
         margin: 0px 5px;

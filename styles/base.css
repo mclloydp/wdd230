@@ -22,13 +22,13 @@ header div {
     padding: 16px 10px 16px 0px;
 }
 
-header div img {
+/* header div img {
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
     width: 133px;
     height: 133px;
 }
-
+"/
 header img {
     border-radius: 50%;
     margin-right: 20px;

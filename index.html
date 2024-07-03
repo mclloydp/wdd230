@@ -24,7 +24,8 @@
             <h1>McLloyd Pise</h1>
         </span>
     </header>
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="">Chamber</a></li>
@@ -32,6 +33,7 @@
             <li><a href="">Form</a></li>
         </ul>
     </nav>
+    <h2>Johannesburg South Africa Temple</h2>
     <div class="hero">
         <picture>
             <source srcset="images/johannesburg-south-africa-temple-large.jpg" media="(max-width:960px)">
@@ -46,8 +48,14 @@
 <section class="card">
     <span>Learning Activities</span>
     <ul>
-        <li class="active"><a href="week01/holygrail.html">Week 01: Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a> </li>
-        <li><a href="#">Week 02:</a></li>
+        <li class="active"><a href="week01/holygrail.html">Week 01: Layout</a> | 
+            <a href="#">Media Query</a> | 
+            <a href="#">JS Pen</a> 
+        </li>
+        <li>Week 02: <a href="week02/design.html">Web Design Principles </a> |
+            <a href="https://codepen.io/mclloydp/pen/MWdNXNW">Responsive Hamburger Menu</a> | 
+            <a href="week02/bom.html">DOM Menupulation</a>
+        </li>
         <li><a href="#">Week 03:</a></li>
         <li><a href="#">Week 04:</a></li>
         <li><a href="#">Week 05:</a></li>
@@ -68,9 +76,7 @@
         <p id="lastModified"></p>
         
     </footer>
-    <script src="scripts/getDates.js">
-        
-        
-    </script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
 </body>
 </html>

@@ -124,7 +124,7 @@ main .card p {
 }
 
 .hero {
-    image-resolution: 400px;
+    width: 400px;
 }
 
 main h2 {
@@ -225,7 +225,7 @@ nav {
 }
 
 .hero {
-	margin: 0.5m;
+	margin: 0.5rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #bed;
 	max-width: 580px;

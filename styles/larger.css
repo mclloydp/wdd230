@@ -10,7 +10,7 @@
         flex-direction: column;
     }
     .hero {
-        image-resolution: 960px;
+        width: 960px;
     }
 
     main h1 {

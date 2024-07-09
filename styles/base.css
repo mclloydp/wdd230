@@ -124,7 +124,7 @@ main .card p {
 }
 
 .hero {
-    size: 400px;
+    image-resolution: 400px;
 }
 
 main h2 {
@@ -224,10 +224,10 @@ h2 {
 	content: "📍";  /* just a wayfinding symbol for the user */
 }
 
-/*.hero {
-	margin: 0.5m;
+.hero {
+	margin: 0.5rem;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: #bed;
 	max-width: 580px;
 	height: 100vh;
-}*/
+}

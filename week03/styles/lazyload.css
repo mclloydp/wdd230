@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+main{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column ;
+}
+img {
+    width: 100%;
+    background: #000;
+    animation: fade 15s timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

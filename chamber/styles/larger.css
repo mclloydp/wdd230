@@ -1,0 +1,115 @@
+/* General styles */
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header styles */
+header .container {
+    justify-content: space-between;
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+/* Navigation styles */
+nav {
+    background: #444;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 15px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.join-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #5a67d8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Events and Weather section styles */
+.events, .weather {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.events h2, .weather h2 {
+    margin-top: 0;
+}
+
+/* Advertisements section styles */
+.advertisements {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.ad {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+}
+
+.ad:last-child {
+    margin-right: 0;
+}
+
+.ad h3 {
+    margin-top: 0;
+}
+
+/* Footer styles */
+footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .credits p {
+    margin: 0;
+    padding: 0 10px;
+}
